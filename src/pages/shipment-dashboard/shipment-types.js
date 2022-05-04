@@ -2,7 +2,7 @@ export const QUERY_PARAMS = {
     viewShipment: 'vs',
 };
 
-export const TABLE_INFO = [
+export const TABLE_FIELDS = [
     {
         id: 'orderNo',
         label: 'OrderNo',
@@ -54,7 +54,7 @@ export const TABLE_INFO = [
     {
         id: 'actions',
         label: '',
-        type: 'action',
+        type: 'actions',
         minWidth: 170,
         align: 'right'
     }
