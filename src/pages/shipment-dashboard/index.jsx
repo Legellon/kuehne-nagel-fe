@@ -1,1 +1,1 @@
-export { default } from "./shipments-table";
+export { default } from "./shipment-dashboard";
