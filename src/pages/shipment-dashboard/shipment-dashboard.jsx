@@ -41,8 +41,6 @@ export default function ShipmentDashboard() {
     const selectedShipment = useSelector((state) => selectShipmentByOrderNo(state, selectedOrderNo));
     const isLoading = useSelector(selectLoading);
 
-    console.log('a')
-
     //Load shipments
     useEffect(() => {
         dispatch(fetchShipments());

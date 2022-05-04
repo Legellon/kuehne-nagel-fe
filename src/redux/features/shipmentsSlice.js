@@ -11,7 +11,7 @@ const initialState = {
     }
 };
 
-const ENDPOINT = "https://my.api.mockaroo.com/shipments.json?key=5e0b62d0";
+const ENDPOINT = `https://my.api.mockaroo.com/shipments.json?key=${process.env.REACT_APP_API_KEY}`;
 
 const fakeFetchShipments = createAsyncThunk('shipments/fakeFetchShipments', async () => {
     try {
